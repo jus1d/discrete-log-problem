@@ -1,0 +1,11 @@
+[package]
+name = "dlp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rug = "1.24"
+
+[[bin]]
+name = "attack"
+path = "attack.rs"
